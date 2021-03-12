@@ -1,7 +1,7 @@
 # King of Real Estate
 ## In King County, Washington
 
-![Cover](https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Images/Cover.png)
+![Cover](https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Other_Images/Cover.png)
 
 ## Overview
 
