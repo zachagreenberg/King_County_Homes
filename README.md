@@ -6,7 +6,7 @@
 by Zachary Greenberg
 
 ## Overview
-The housing market in King County, Washington is highly diverse. I am seeking to create a predictive model to accurately forecast the prices in the market. Using the detailed factors of a home, including number of bathrooms, zipcode, renovation status, and so on I will analyze the data to be used in a Multiple Linear Regression model. My goal is to come within $200000 for my model estimates. I will use RMSE as an indicator of my model performance. 
+The housing market in King County, Washington is highly diverse. I am seeking to create a predictive model to accurately forecast the prices in the market. Using the detailed factors of a home, including number of bathrooms, zipcode, renovation status, and so on I will analyze and clean the data to be used in a Multiple Linear Regression model. My goal is to come within $200000 for my model estimates. I will use RMSE as an indicator of my model's performance. 
 
 ## Business Problem
 When it comes to buying a house, there are many factors that affect the prices you will pay. If we can create a model to effectively predict the price of homes based on these factors, this will increase our understanding of the housing market and allow us to be more certain in our future pricing estimates and appraisals. 
@@ -14,7 +14,7 @@ When it comes to buying a house, there are many factors that affect the prices y
 
 ## Data
 
-My dataset is a 2015 Kings County Housing dataset provided by Kaggle. Here is a list of the information I will be using in my model:
+My dataset is a [2015 Kings County Housing dataset](https://www.kaggle.com/harlfoxem/housesalesprediction) provided by Kaggle. Here is a list of the information I will be using in my model:
 
 * **price** - Price is prediction TARGET  
 
@@ -67,9 +67,10 @@ For example, I used the datetime column to extract the Month and create a price 
 
 <p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/month.png" width="500" height="280" /></p>
 
+This also proved to be statistically significant. 
 
 ## Modeling
-For my modeling process, I ran a baseline model with little to no changes and had achieved an RMSE of approximate 151000, which immediately hit my end goal, however I decided to run with and create several other models to improve my RMSE score. Using techniques like non linear transformations and feature selection, I ended up have to choose between three models. Here are there scores: 
+For my modeling process, I ran a baseline model with little to no changes and had achieved an RMSE of approximate 151000, which immediately hit my end goal, however I decided to run with it and create several other models to improve my RMSE score. Using techniques like non linear transformations and feature selection, I ended up have to choose between three models. Here are there scores: 
 
 <p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Models.png" width="300" height="180" /></p>
 
@@ -78,14 +79,15 @@ For my modeling process, I ran a baseline model with little to no changes and ha
 
 After trying out various models, I ultimately decided to go my Nonlinear Transformation model. It produced the 2nd lowest RMSE score, however the gap between train and test were also the closest. This made me a little more confident in my choice. I was able to achieve my goal of being under $200000 for the price estimates.  
 
+
 ---------------------------------
 
 ## Repo Structure
 
 ├── Data  
-├── Visualizations  
-├── Final_Notebook.ipynb    
-├── Predictions_Notebook.ipynb  
+├── Visualizations     
+├── Predictions_Notebook.ipynb    
+├── Project_Notebook.ipynb   
 ├── housing_preds_zachary_greenberg.ipynb  
 ├── King_County_Homes.pdf    
 └── README.me  
