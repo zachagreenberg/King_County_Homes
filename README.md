@@ -48,13 +48,13 @@ During the data exploration process, there seemed to be a predictability in cert
 
 I looked at the relationship between price and square foot.
 
-<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/sqftliving.png" width="800" height="380" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/sqftliving.png" width="700" height="280" /></p>
 
 As the size of the living area increased, the price did as well. 
 
 I also tested the relationship between price and whether or not the property was waterfront. 
 
-<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Waterfront.png" width="300" height="200" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Waterfront.png" width="100" height="100" /></p>
 
 This turned out to be statistically significant that there was a major difference in price given the home was waterfront or not. 
 
@@ -65,13 +65,13 @@ Because of the predictability of the given features, I decided to go ahead and g
 
 For example, I used the datetime column to extract the Month and create a price by month feature.
 
-<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/month.png" width="800" height="380" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/month.png" width="700" height="280" /></p>
 
 
 ## Modeling
 For my modeling process, I ran a baseline model with little to no changes and had achieved an RMSE of approximate 151000, which immediately hit my end goal, however I decided to run with and create several other models to improve my RMSE score. Using techniques like non linear transformations and feature selection, I ended up have to choose between three models. Here are there scores: 
 
-<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Models.png" width="300" height="200" /></p>
+<p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Models.png" width="100" height="100" /></p>
 
 
 ## Results
