@@ -82,15 +82,17 @@ After trying out various models, I ultimately decided to go my Nonlinear Transfo
 
 ---------------------------------
 
-## Repo Structure
+## Repository Structure
 
-├── Data  
-├── Visualizations     
-├── Predictions_Notebook.ipynb    
-├── Project_Notebook.ipynb   
-├── housing_preds_zachary_greenberg.ipynb  
-├── King_County_Homes.pdf    
-└── README.me  
+|_ data      
+|_ visualizations  
+|_ .gitignore  
+|_ EDA-Modeling-Eval.ipynb      
+|_ Predictions_Preparation.ipynb       
+|_ EDA_Presentation.pdf   
+|_ housing_preds_zachary_greenberg.csv  
+|_ README.md    
+
 
 
 
