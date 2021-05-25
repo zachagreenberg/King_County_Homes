@@ -84,9 +84,9 @@ After trying out various models, I ultimately decided to go my Nonlinear Transfo
 
 ## Repository Structure
 
-|_ data      
-|_ visualizations  
-|_ .gitignore  
+|_ Data        
+|_ Visualizations    
+|_ .gitignore    
 |_ EDA-Modeling-Eval.ipynb      
 |_ Predictions_Preparation.ipynb       
 |_ EDA_Presentation.pdf   
