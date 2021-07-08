@@ -1,5 +1,5 @@
 # King of Real Estate
-## In King County, Washington
+## Effectively Predicting Prices of Homes in King County, Washington
 
 ![Cover](https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Other_Images/Cover.png)
 
@@ -78,6 +78,10 @@ For my modeling process, I ran a baseline model with little to no changes and ha
 ## Results
 
 After trying out various models, I ultimately decided to go my Nonlinear Transformation model. It produced the 2nd lowest RMSE score, however the gap between train and test were also the closest. This made me a little more confident in my choice. I was able to achieve my goal of being under $200000 for the price estimates.  
+
+## Next Steps
+
+I believe the model could possibly show improvement throught the addition of a neural net. I would be curious to see how it would compare to the other models I've created. I will most likely have to adjust its parameters to get the neural net in top shape to compare against the others. 
 
 
 ---------------------------------
