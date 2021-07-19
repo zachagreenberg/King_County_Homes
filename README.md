@@ -74,6 +74,7 @@ For my modeling process, I ran a baseline model with little to no changes and ha
 
 <p align="center"><img src="https://github.com/zachagreenberg/King_County_Homes/blob/main/Visualizations/Models.png" width="300" height="180" /></p>
 
+**As an addition to all of this** I decided to come up with a neural network model. Please see the 'NeuralNet_Addition.ipynb' notebook. It is still a work in progress at the moment, the RMSE achieved cannot compete with the other models at this time, therefore the results remain the same.  
 
 ## Results
 
@@ -81,8 +82,7 @@ After trying out various models, I ultimately decided to go my Nonlinear Transfo
 
 ## Next Steps
 
-I believe the model could possibly show improvement throught the addition of a neural net. I would be curious to see how it would compare to the other models I've created. I will most likely have to adjust its parameters to get the neural net in top shape to compare against the others. 
-
+I believe the model could possibly show continuous improvement through the further tuning of the neural net model. I would be curious to see if it can be comparable to the linear models created. 
 
 ---------------------------------
 
@@ -91,9 +91,10 @@ I believe the model could possibly show improvement throught the addition of a n
 |_ Data        
 |_ Visualizations    
 |_ .gitignore    
-|_ EDA-Modeling-Eval.ipynb      
-|_ Predictions_Preparation.ipynb       
-|_ EDA_Presentation.pdf   
+|_ EDA-Modeling-Eval.ipynb
+|_ EDA_Presentation.pdf 
+|_ NeuralNet_Addition.ipynb
+|_ Predictions_Preparation.ipynb         
 |_ housing_preds_zachary_greenberg.csv  
 |_ README.md    
 
