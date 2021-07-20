@@ -88,15 +88,15 @@ I believe the model could possibly show continuous improvement through the furth
 
 ## Repository Structure
 
-|_ Data        
-|_ Visualizations    
-|_ .gitignore    
-|_ EDA-Modeling-Eval.ipynb
-|_ EDA_Presentation.pdf 
-|_ NeuralNet_Addition.ipynb
-|_ Predictions_Preparation.ipynb         
-|_ housing_preds_zachary_greenberg.csv  
-|_ README.md    
+|_ Data          
+|_ Visualizations      
+|_ .gitignore      
+|_ EDA-Modeling-Eval.ipynb  
+|_ EDA_Presentation.pdf     
+|_ NeuralNet_Addition.ipynb    
+|_ Predictions_Preparation.ipynb           
+|_ housing_preds_zachary_greenberg.csv    
+|_ README.md      
 
 
 
